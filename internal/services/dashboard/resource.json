@@ -1,0 +1,32 @@
+{
+    "id": "/subscriptions/f2a68217-6052-40ff-9f3e-14051079cf32/resourceGroups/rg-temp-grafana/providers/Microsoft.Dashboard/grafana/mg-temp1234/managedPrivateEndpoints/mpe-mg-temp",
+    "name": "mpe-mg-temp",
+    "type": "microsoft.dashboard/grafana/managedprivateendpoints",
+    "location": "westus2",
+    "systemData": {
+        "createdBy": "ryan.jacobs@insight.com",
+        "createdByType": "User",
+        "createdAt": "2023-11-17T20:56:54.3603509Z",
+        "lastModifiedBy": "ryan.jacobs@insight.com",
+        "lastModifiedByType": "User",
+        "lastModifiedAt": "2023-11-17T20:56:54.3603509Z"
+    },
+    "properties": {
+        "provisioningState": "Succeeded",
+        "privateLinkResourceId": "/subscriptions/f2a68217-6052-40ff-9f3e-14051079cf32/resourceGroups/rg-temp-grafana/providers/microsoft.monitor/accounts/azm-test",
+        "privateLinkResourceRegion": "westus2",
+        "groupIds": [
+            "prometheusMetrics"
+        ],
+        "requestMessage": "",
+        "connectionState": {
+            "status": "Pending",
+            "description": null
+        },
+        "privateLinkServiceUrl": null,
+        "privateLinkServicePrivateIP": null
+    }
+}
+
+// example resource from Azure
+// Note that the "type" thing is only useful in the portal to help select a specific thing, and/or to validate e.g., privateLinkResourceId in the provider bit
